@@ -8,6 +8,7 @@ body{
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   height: 293px;
+  padding: 92  50 96;
 }
 
 .header__logo{
@@ -16,6 +17,13 @@ justify-content: center;
 width: 148px;
 height: 105px;
 top: 92px;
+}
+
+.header__links-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 13px;
 }
 
 
