@@ -1,0 +1,22 @@
+body{
+  margin:0;
+  background: #fff;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  height: 293px;
+}
+
+.header__logo{
+display: flex;
+justify-content: center;
+width: 148px;
+height: 105px;
+top: 92px;
+}
+
+
+
