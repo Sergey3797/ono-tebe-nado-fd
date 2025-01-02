@@ -51,7 +51,6 @@ body{
 
 .cover{
   background-image: url("../images/cover.jpg");
-  height: 757px;
   padding: 165px 50px 61px 50px;
 }
 
@@ -79,8 +78,26 @@ body{
   text-align: right;
 }
 
+.cover__description-text{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.bet-button{
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 256px;
+  height: 51px;
+  color: #fff;
+}
+
 .cover__description{
   display: flex;
   justify-content: space-between;
+  padding-top: 106px;
 }
 
