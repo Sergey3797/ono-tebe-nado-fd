@@ -52,26 +52,35 @@ body{
 .cover{
   background-image: url("../images/cover.jpg");
   height: 757px;
+  padding: 165px 50px 61px 50px;
 }
 
 .aligned-text{
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
+  letter-spacing: 0.3em;
   width: 100%;
   display: block;
+  color: #fff;
 }
 
 .aligned-text_left{
   text-align: left;
+  padding-top: 165px;
 }
 
 .aligned-text_center{
   text-align: center;
+ 
 }
 
 .aligned-text_right{
   text-align: right;
 }
 
+.cover__description{
+  display: flex;
+  justify-content: space-between;
+}
 
